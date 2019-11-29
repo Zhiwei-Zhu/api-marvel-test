@@ -19,7 +19,7 @@ function getAPIData() {
                         '<li>height : '+result.height+'cm</li>'+
                         '<li>weight : '+result.mass+'kg</li>'+
                         '<li>hair color : '+result.hair_color+'</li>'+
-                        '<li>eye color : '+result.skin_color+'</li>'+
+                        '<li>eye color : '+result.eye_color+'</li>'+
                         '<li>skin color : '+result.skin_color+'</li>'
                 }
 
