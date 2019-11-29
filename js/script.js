@@ -9,7 +9,7 @@ function getAPIData() {
             for (let i = 0;i<lenght;i++){
                 let input = document.getElementById('name').value
                 const result = data.results[i]
-                console.log(resultgit
+                console.log(result)
                 if(result.name == input){
                     let template =document.querySelector('.info')
                     template.innerHTML ='<ul><li>name: '+result.name+'</li>'+
