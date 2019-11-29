@@ -1,3 +1,16 @@
 button{
-    margin: 10px;
+    margin-top: 10px;
+    background-color: #ffe300;
+}
+body{
+    background-color: black;
+    color: #ffe300;
+    font-size:20px;
+}
+.perso{
+    margin: 150px;
+}
+.info{
+    margin-top: 20px;
+    color: #ffe300;
 }
