@@ -21,11 +21,8 @@ function getAPIData() {
                         '<li>hair color : '+result.hair_color+'</li>'+
                         '<li>eye color : '+result.skin_color+'</li>'+
                         '<li>skin color : '+result.skin_color+'</li>'
-
-                }else {
-                    let template =document.querySelector('.info')
-                    template.innerHTML ='<p>not found</p>'
                 }
+
 
             }
 
