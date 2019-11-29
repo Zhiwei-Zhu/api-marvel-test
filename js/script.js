@@ -9,9 +9,8 @@ function getAPIData() {
             for (let i = 0;i<lenght;i++){
                 let input = document.getElementById('name').value
                 const result = data.results[i]
-                console.log(result)
+                console.log(resultgit
                 if(result.name == input){
-
                     let template =document.querySelector('.info')
                     template.innerHTML ='<ul><li>name: '+result.name+'</li>'+
                         '<li>gender : '+result.gender+'</li>'+
@@ -21,6 +20,7 @@ function getAPIData() {
                         '<li>hair color : '+result.hair_color+'</li>'+
                         '<li>eye color : '+result.eye_color+'</li>'+
                         '<li>skin color : '+result.skin_color+'</li>'
+                    break;
                 }
 
 
@@ -29,7 +29,7 @@ function getAPIData() {
 
         }
     }
-    xhr.open('GET', 'https://swapi.co/api/people/   ');
+    xhr.open('GET', 'https://swapi.co/api/people/');
     xhr.send()
 }
 
